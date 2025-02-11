@@ -1,0 +1,8 @@
+services:
+  analysis-env:
+    image: adamwalmsley/ia3-adamwalmlsey
+    ports: 
+      - 8787:8787
+    environment:
+      #PASSWORD: "password"
+      DISABLE_AUTH: True
