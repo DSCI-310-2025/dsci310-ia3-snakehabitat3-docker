@@ -1,6 +1,6 @@
 services:
   analysis-env:
-    image: adamwalmsley/ia3-adamwalmlsey
+    image: adamwalmsley/dockerfile-practice
     ports: 
       - 8787:8787
     environment:
